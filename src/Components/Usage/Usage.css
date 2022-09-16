@@ -1,0 +1,19 @@
+.cards__container{
+    margin: 0px auto;
+}
+.card-container{
+    border: 1px solid var(--secondary-text-color);
+    width: 15rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.card__text--primary{
+    font-size: 2rem;
+    color: var(--black);
+}
+.card__text--secondary{
+    font-size: 1.5rem;
+    color: var(--secondary-text-color);
+}

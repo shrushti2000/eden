@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+html {
+  font-size: 62.5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  overflow-y: auto;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+  --primary-bg-color: #5a4ad1;
+  --primary-text-color: #40434a;
+  --secondary-text-color: #9ba0ab;
+  --black: #323232;
+  --white: #ffffff;
+  --grey: #ededed;
+  --success-color: #b1e693;
+  --danger-color: #ff6363;
+}
+.flex-hz {
+  display: flex;
+  flex-direction: row;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-vt {
   display: flex;
   flex-direction: column;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.align-c {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.page-container {
+  margin: 0px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hero-container {
+  width: 10%;
+  height: 3rem;
+
+  margin: 10rem auto;
+}
+.hero-logo {
+  width: 3rem;
+  height: 3rem;
+}
+.hero-text {
+  font-size: 3rem;
+  margin: 0px 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0px auto;
+}
+
+.page-header {
+  font-size: 3rem;
+  color: var(--black);
+  margin: 1rem auto;
+}
+
+.page-sub-header {
+  font-size: 1.5rem;
+  color: var(--secondary-text-color);
+  margin: 1rem auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.label-text {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.input {
+  width: 90%;
+  height: 2rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  border: 0.2rem solid var(--grey);
+}
+
+.btn {
+  background-color: var(--primary-bg-color);
+  color: var(--white);
+  height: 4rem;
+  border-radius: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  width: 95%;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 1px solid var(--primary-bg-color);
+}
+
+.text {
+  color: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 50%;
   }
-  to {
-    transform: rotate(360deg);
+  .page-container {
+    margin: 0px auto;
+  }
+  .hero-container {
+    width: 30%;
+  }
+
+  .page-header {
+    font-size: 2rem;
+  }
+
+  .form {
+    width: 80%;
+    margin: 0px auto;
   }
 }
