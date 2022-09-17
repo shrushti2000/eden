@@ -58,7 +58,7 @@ const Usage = () => {
             />
             <p className="card__text--primary">For myself</p>
             <p className="card__text--secondary">
-              Write better.Think more clearly. Stay Organized
+              Write better.Think more clearly. Stay organized
             </p>
           </div>
           <div
