@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  overflow-y: auto;
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
 }
@@ -59,14 +58,6 @@ body {
   margin: 0px 5px;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 60%;
-  margin: 0px auto;
-}
-
 .page-header {
   font-size: 3rem;
   color: var(--black);
@@ -80,8 +71,8 @@ body {
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px auto;
   width: 30%;
 }
 
@@ -96,7 +87,6 @@ body {
   margin: 0.5rem;
   padding: 1rem;
   border-radius: 0.5rem;
-
   border: 0.2rem solid var(--grey);
 }
 

@@ -1,0 +1,13 @@
+.tickmark-container {
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--primary-bg-color);
+  border-radius: 50%;
+  margin: 2rem auto;
+}
+.tickmark-icon {
+  color: var(--white);
+  font-size: 2rem;
+}

@@ -13,6 +13,8 @@ const Context = ({ children }) => {
       usage: "",
     },
     noOfStepsCompleted: 1,
+    showToast: false,
+    toastText: "",
   });
   return (
     <StateContext.Provider value={{ state, dispatch }}>

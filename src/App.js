@@ -12,7 +12,7 @@ import { useContext } from "react";
 import { StateContext } from "./Context";
 
 function App() {
-  const { state, dispatch } = useContext(StateContext);
+  
   return (
     <>
       <div className="hero-container flex-hz">

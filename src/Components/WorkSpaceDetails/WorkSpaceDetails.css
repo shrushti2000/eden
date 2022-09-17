@@ -21,4 +21,6 @@
 .input-text {
   font-size: 1.2rem;
   margin: 50% auto;
+  color: var(--secondary-text-color);
+  font-weight: 600;
 }
